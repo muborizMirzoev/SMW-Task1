@@ -35,7 +35,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 34px 138px;
-    margin: 0 auto;
+    margin: -10px auto;
 }
 
 .header__logo a {
@@ -46,6 +46,7 @@ a {
     border: 1px solid #0f7bff;
     background-color: #0f7bff;
     border-radius: 0 0 33px 33px;
+    
 }
 
 .header__navigation {
@@ -104,6 +105,7 @@ nav input:checked ~ label > span:nth-last-child(2)
 .header__navigation li>a {
     margin-left: 40px;
     color: #929292;
+    font-weight: 500;
 }
 
 .header__navigation li>a:hover {
@@ -127,11 +129,11 @@ nav input:checked ~ label > span:nth-last-child(2)
     border-radius: 45px;
 }
 
-.header__btn:hover , .btn-color:hover {
+.header__btn:hover {
     background-color: #204e86;
 }
 
-.header__btn:active, .btn-color:active {
+.header__btn:active {
     background-color: #172e4b;
 }
 
@@ -156,6 +158,8 @@ nav input:checked ~ label > span:nth-last-child(2)
     padding: 33px 0 33px 0;
     max-width: 615px;
     text-align: center;
+    color: #929292;
+    line-height: 26px;
 }
 .btn {
     font-weight: bold;
@@ -168,13 +172,17 @@ nav input:checked ~ label > span:nth-last-child(2)
    background-color: #0f7bff; 
    margin-right: 15px;
 }
+.btn-color:hover {
+    background-color: #fff;
+    color:#0f7bff;
+}
 
 .btn-border {
     color: #0f7bff;
     margin-left: 15px;
 }
 .btn-border:hover {
-    background-color: #204e86;
+    background-color: #0f7bff;
     color: white;
 }
 .elements__button {
