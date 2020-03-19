@@ -128,7 +128,7 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .header__btn {
 
-    border: 1px solid #0063dd;
+    border: 2px solid #0063dd;
     background-color: #0063dd;
     padding: 16px 50px;
     margin-left: 52px !important;
@@ -137,7 +137,8 @@ nav input:checked~label>span:nth-last-child(2) {
 }
 
 .header__btn:hover {
-    background-color: #204e86;
+    background-color: white;
+    color: #0063dd;
 }
 
 .header__btn:active {
@@ -230,6 +231,7 @@ nav input:checked~label>span:nth-last-child(2) {
     display: flex;
     height: 100%;
     justify-content: space-between;
+    padding: 0 15px; 
 
     
 }
@@ -255,6 +257,7 @@ nav input:checked~label>span:nth-last-child(2) {
 } 
 .features__item p {
     color: #929292;
+    padding: 0 15px;
 }
 
 
@@ -276,6 +279,10 @@ nav input:checked~label>span:nth-last-child(2) {
     .header__navigation li>a {
         margin-left: 20px;
     }
+    .features__item-down {
+        margin-top: 320px;
+    }
+
 }
 
 @media screen and (max-width: 1055px) {}
