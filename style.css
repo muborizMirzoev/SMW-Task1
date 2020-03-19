@@ -223,7 +223,7 @@ nav input:checked~label>span:nth-last-child(2) {
 
 /* Features */
 .features {
-    background-color: #e0fdff;
+    background-color: #f5fcfd;
     padding: 165px 0 125px 0;
     height: 100%;
 }
@@ -263,14 +263,9 @@ nav input:checked~label>span:nth-last-child(2) {
 }
 
 /* About */
-
-.about-inner {
-    border: 1px dashed blue;
-}
 .about__block {
     display: flex;
     align-items: center;
-    border: 1px dashed red;
 }
 .about__block-reverse {
     margin-top: -35px;
@@ -279,7 +274,6 @@ nav input:checked~label>span:nth-last-child(2) {
 .about__block-reverse > .about__text {
     margin-top: 35px;
 }
-
 
 
 .about__img > img{
