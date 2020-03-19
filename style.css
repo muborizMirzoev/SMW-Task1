@@ -131,18 +131,14 @@ nav input:checked~label>span:nth-last-child(2) {
     border: 2px solid #0063dd;
     background-color: #0063dd;
     padding: 16px 50px;
-    margin-left: 52px !important;
-    color: white !important;
+    margin-left: 52px;
+    color: white;
     border-radius: 45px;
 }
 
 .header__btn:hover {
     background-color: white;
     color: #0063dd;
-}
-
-.header__btn:active {
-    background-color: #172e4b;
 }
 
 
@@ -207,6 +203,7 @@ nav input:checked~label>span:nth-last-child(2) {
 .elements__img>img {
     max-width: 100%;
     height: auto;
+    margin-bottom: -4px
 }
 
 .scroll-down {
@@ -222,27 +219,28 @@ nav input:checked~label>span:nth-last-child(2) {
 
 /* Features */
 .features {
-    background-color: #f5fcfd;
-    padding: 84px 0 84px 0;
+    background-color: #e0fdff;
+    padding: 165px 0 125px 0;
     height: 100%;
 }
 
 .features__inner {
     display: flex;
-    height: 100%;
     justify-content: space-between;
-    padding: 0 15px; 
-
-    
+    align-items: flex-start;
+    padding: 0 15px;
+    min-height: 420px;  
 }
 .features__item-down {
-    margin-top: 50px;
+    align-self: flex-end;
+    text-align: center;
 }
+
 .features__item {
     background-color: white;
     text-align: center;
-    max-width: 360px;
-    max-height: 288px;
+    max-width: 340px;
+    min-height: 288px;
     padding: 40px 0;
 }
 .features__item img {
@@ -279,13 +277,14 @@ nav input:checked~label>span:nth-last-child(2) {
     .header__navigation li>a {
         margin-left: 20px;
     }
-    .features__item-down {
-        margin-top: 320px;
+    .features__item {
+        margin: 0 20px 0 20px;
     }
 
 }
 
 @media screen and (max-width: 1055px) {}
+
 
 @media screen and (max-width: 809px) {
     .header__logo a {
@@ -305,9 +304,10 @@ nav input:checked~label>span:nth-last-child(2) {
 
     .header__navigation ul>li {
         padding: 15px 0;
-        margin-left: 20px;
-
-
+        /* margin-left: 20px; */
+    }
+    .header__navigation ul>li>a, .header__navigation>.header__btn  {
+        margin: 0;
     }
 
     nav label {
@@ -329,6 +329,18 @@ nav input:checked~label>span:nth-last-child(2) {
         display: block;
     }
 }
+@media screen and (max-width: 720px) {
+    .features__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .features__item-down {
+        align-self: center;
+    }
+    .features__item {
+        margin:  20px 0 20px 0;
+    }
+}
 
 @media screen and (max-width: 420px) {
     .header__logo a {
@@ -346,5 +358,11 @@ nav input:checked~label>span:nth-last-child(2) {
     }
 
 }
+@media screen and (max-width: 360px) {
+    input[type="checkbox"]:checked~label+ul {
+        right: 2px;
+    }
+}
+@media screen and (max-width: 320px) {
 
-@media screen and (max-width: 320px) {}
+}
