@@ -27,6 +27,10 @@ a {
     max-width: 1200px;
     margin: 0 auto;
 }
+.container-middle {
+    max-width: 1370px;
+    margin: 0 auto;
+}
 
 .header {
     background-image: url(./assets/image/header/header-bg.png);
@@ -258,8 +262,57 @@ nav input:checked~label>span:nth-last-child(2) {
     padding: 0 15px;
 }
 
+/* About */
+
+.about-inner {
+    border: 1px dashed blue;
+}
+.about__block {
+    display: flex;
+    align-items: center;
+    border: 1px dashed red;
+}
+.about__block-reverse {
+    margin-top: -35px;
+    flex-direction: row-reverse;
+}
+.about__block-reverse > .about__text {
+    margin-top: 35px;
+}
 
 
+
+.about__img > img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+.about__text {
+    margin: 0 118px 0 85px;
+    max-width: 545px;
+}
+.about__text h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 33px;
+}
+.about__text p {
+    color: #929292;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+.about__text a ,.about__text i  {
+    color: #0f7bff;
+    padding-bottom: 5px;
+}
+.about__text i {
+    padding-left: 10px;
+    font-weight: lighter;
+}
+.about__text a:hover {
+    border-bottom: 1px solid #0f7bff;
+}
 
 
 
@@ -284,6 +337,8 @@ nav input:checked~label>span:nth-last-child(2) {
 }
 
 @media screen and (max-width: 1055px) {}
+@media screen and (max-width: 1055px) {}
+
 
 
 @media screen and (max-width: 809px) {
@@ -293,6 +348,15 @@ nav input:checked~label>span:nth-last-child(2) {
 
     .header {
         background-image: none;
+    }
+    .features {
+        padding: 65px 0 50px 0;
+    }
+    .about__text h2 {
+        margin: 10px 0 15px 0;
+    }
+    .about__text p {
+        margin-bottom: 20px;
     }
 
 }
@@ -328,6 +392,8 @@ nav input:checked~label>span:nth-last-child(2) {
     .header__navigation label span {
         display: block;
     }
+
+   
 }
 @media screen and (max-width: 720px) {
     .features__inner {
@@ -339,6 +405,17 @@ nav input:checked~label>span:nth-last-child(2) {
     }
     .features__item {
         margin:  20px 0 20px 0;
+    }
+    .about__block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about__text {
+        margin: 0;
+        order: -1;
+        text-align: center;
+        padding: 20px
     }
 }
 
