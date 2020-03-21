@@ -132,7 +132,7 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .header__btn {
 
-    border: 2px solid #0063dd;
+    border: 2px solid #0063dd !important;
     background-color: #0063dd;
     padding: 16px 50px;
     margin-left: 52px;
@@ -308,6 +308,47 @@ nav input:checked~label>span:nth-last-child(2) {
     border-bottom: 1px solid #0f7bff;
 }
 
+/* Works */
+
+.works {
+    background-color: #f5fcfd;
+}
+.works-inner {
+    padding: 152px 46px 256px 46px;
+    text-align: center;
+    
+}
+.works-inner  h2 {
+    font-size: 32px;
+}
+.works-inner > p {
+    max-width: 735px;
+    margin: 0 auto;
+    padding: 40px 0 45px 0;
+}
+
+.works__items {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./assets/image/works/Line.png);
+    background-repeat: no-repeat;
+    background-position: 200px 50px;
+}
+.works__item {
+}
+.works__item h4 {
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.works__item p {
+    color: #929292;
+    line-height: 25px;
+}
+
+
+
+
 
 
 
@@ -327,11 +368,22 @@ nav input:checked~label>span:nth-last-child(2) {
     .features__item {
         margin: 0 20px 0 20px;
     }
-
+    .works__items {
+        background-position: 110px 50px;
+    }
 }
 
 @media screen and (max-width: 1055px) {}
-@media screen and (max-width: 1055px) {}
+@media screen and (max-width: 980px) {
+    .works__items {
+        background-size: 600px 1px;
+    }
+}
+@media screen and (max-width: 887px)  {
+    .works__items {
+        background-size: 500px 1px;
+    }
+}
 
 
 
@@ -351,6 +403,9 @@ nav input:checked~label>span:nth-last-child(2) {
     }
     .about__text p {
         margin-bottom: 20px;
+    }
+    .works__items {
+        background-size: 450px 1px;
     }
 
 }
@@ -386,8 +441,24 @@ nav input:checked~label>span:nth-last-child(2) {
     .header__navigation label span {
         display: block;
     }
-
-   
+}
+@media screen and (max-width: 768px) {
+    .works__items {
+        flex-direction: column;
+        background-image: none;
+    }
+    .works-inner {
+        padding: 80px 26px;
+    }
+    .works-inner > p {
+        padding: 30px 0 40px 0;
+    }
+    .works__item {
+        padding: 30px 0;
+    }
+    .works__item h4 {
+        padding: 10px 0;
+    }
 }
 @media screen and (max-width: 720px) {
     .features__inner {
