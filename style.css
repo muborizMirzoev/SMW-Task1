@@ -234,7 +234,7 @@ nav input:checked~label>span:nth-last-child(2) {
     justify-content: space-between;
     align-items: flex-start;
     padding: 0 15px;
-    min-height: 420px;
+    min-height: 360px;
 }
 
 .features__item-down {
@@ -311,6 +311,7 @@ nav input:checked~label>span:nth-last-child(2) {
 .about__text i {
     color: #0f7bff;
     padding-bottom: 5px;
+    font-weight: 700;
 }
 
 .about__text i {
@@ -336,12 +337,14 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .works-inner h2 {
     font-size: 32px;
+    color: #333333;
 }
 
 .works-inner>p {
     max-width: 735px;
     margin: 0 auto;
     padding: 40px 0 45px 0;
+    color: #929292;
 }
 
 .works__items {
@@ -356,6 +359,7 @@ nav input:checked~label>span:nth-last-child(2) {
     padding: 30px 0;
     font-size: 18px;
     font-weight: bold;
+    color: #333333;
 }
 
 .works__item p {
@@ -410,7 +414,7 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .pricing__plan-btn>a:nth-child(1):hover {
     color: #0f7bff;
-    background-color: rgb(187, 179, 179);
+    background-color: white;
 }
 
 .pricing__plan-btn>a:nth-child(2) {
@@ -422,7 +426,7 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .pricing__plan-btn>a:nth-child(2):hover {
     color: white;
-    background-color: #0c3f7e;
+    background-color: #0f7bff;
 }
 
 
@@ -455,6 +459,16 @@ nav input:checked~label>span:nth-last-child(2) {
 .pricing__service>span {
     display: block;
     padding: 10px;
+}
+.pricing__service> .price {
+    color:#0f7bff;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.pricing__service> .price span {
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* Testimonails */
@@ -684,7 +698,7 @@ nav input:checked~label>span:nth-last-child(2) {
     color: white;
     opacity: 1;
     font-size: 16px; 
-    line-height: 27px;
+    line-height: 17px;
   }
 .footer {
     background-color: #0f7bff;
@@ -714,13 +728,13 @@ nav input:checked~label>span:nth-last-child(2) {
 .widget__form > input[type=email] {
     line-height: 27px;
     border: 2px solid white;
-    padding: 22px 241px 22px 30px;
+    padding: 10px 241px 10px 30px;
     border-radius: 50px 0 0 50px;
     background-color: #0f7bff;
 }
 .widget__form > a {
     margin-left: -5px;
-    padding: 26px 40px;
+    padding: 17px 40px;
     border-radius: 0 50px 50px 0;
     border: 2px solid white;
     background-color: white;
@@ -1161,4 +1175,5 @@ nav input:checked~label>span:nth-last-child(2) {
 @media screen and (max-width: 320px) {
     .widget__form > input[type=email] {
         padding: 10px 10px 10px 15px;
+}
 }
