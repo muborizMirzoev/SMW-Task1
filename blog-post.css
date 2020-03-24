@@ -192,7 +192,6 @@ nav input:checked~label>span:nth-last-child(2) {
 }
 .left-side {
     max-width: 67%;
-    border: 1px dashed red;
 }
 .left-side__block {
     display: flex;
@@ -267,7 +266,6 @@ nav input:checked~label>span:nth-last-child(2) {
 .right-side {
     width: 33%;
     margin-left: 30px;
-    border: 1px dashed blue;
 }
 
 .right-side__form {
