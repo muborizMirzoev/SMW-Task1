@@ -379,6 +379,73 @@ nav input:checked~label>span:nth-last-child(2) {
     color: white;
     background-color: #0063dd;
 }
+/* Widget */
+.widget {
+    background-color: #f5fcfd;
+}
+.widget__inner {
+    padding: 128px 80px 156px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.widget__logo {
+    max-width: 458px;
+}
+.widget__logo h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0063dd;
+}
+.widget__logo p {
+    color: #929292;
+    margin: 30px 0 37px 0;
+    line-height: 27px;
+}
+.widget__social i {
+    font-size: 25px;
+    color: #929292;
+    margin-right: 10px;
+}
+.widget__social i:hover {
+    color: #0063dd;
+}
+.widget__links h4{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.widget__links-ul li {
+    margin-bottom: 18px;
+}
+.widget__links-ul a {
+    color: #929292;
+}
+.widget__links-ul a:hover {
+    color: #0063dd; 
+}
+/* Footer */
+.footer {
+    border-top: 1px solid rgba(220, 220, 220, 0.9);
+}
+.footer__inner {
+    color: #929292;
+    padding: 37px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__link {
+    display: flex;
+}
+.footer__link li {
+    margin-left: 23px;
+}
+.footer__link a {
+    color: #929292;
+}
+.footer__link a:hover {
+    color: #0063dd; 
+}
+
 
 
 
@@ -428,6 +495,9 @@ nav input:checked~label>span:nth-last-child(2) {
     }
     .recent-post__item-text {
         margin-left: 10px;
+    }
+    .widget__inner {
+        padding: 70px 20px 80px 20px;
     }
 }
 @media screen and (max-width: 809px) {
@@ -511,6 +581,13 @@ nav input:checked~label>span:nth-last-child(2) {
     .right-side__form button .fa {
         font-size: 22px;
     }
+    .widget__logo {
+        max-width: 300px;
+    }
+    .widget__logo p {
+        margin: 20px 0 27px 0;
+    }
+
 }
 
 @media screen and (max-width: 720px)  {
@@ -520,6 +597,7 @@ nav input:checked~label>span:nth-last-child(2) {
     }
     .main__inner {
         flex-direction: column;
+        padding: 40px 15px 45px 15px;
     }
     .left-side {
         max-width: 100%;
@@ -539,7 +617,24 @@ nav input:checked~label>span:nth-last-child(2) {
     .recent-post__item {
         margin-left: 30px;
     }
+    .widget__inner {
+        flex-wrap: wrap;
+    }
+    .widget__logo {
+        padding-bottom: 30px;
+    }
+    .footer__inner {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer__link {
+        margin-bottom: 20px;
+    }
+    .footer__link li {
+        margin: 0 10px;
+    }
 }
+
 @media screen and (max-width: 511px) {
     .left-side__block {
         flex-direction: column;
@@ -578,4 +673,5 @@ nav input:checked~label>span:nth-last-child(2) {
         opacity:0.1;
         
     }
+    
 }
