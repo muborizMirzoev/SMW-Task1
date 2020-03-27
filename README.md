@@ -1,2 +1,1 @@
-# SMW-Task1
-## First Task for SmartWorld Academy
+# [First Task for SmartWorld Academy](https://academy.smartworld.team/)
