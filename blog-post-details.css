@@ -318,6 +318,7 @@ blockquote {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 28px;
+    color: #333333;
 }
 .left-side__form .rows {
     display: flex;
@@ -420,6 +421,7 @@ blockquote {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 28px;
+    color: #333333;
 }
 .recent-post__item {
     margin-bottom: 29px;
@@ -439,6 +441,7 @@ blockquote {
     margin-bottom: 10px;
     line-height: 27px;
     font-size: 18px;
+    color: #333333;
 }
 .recent-post__item-text p {
     color: #929292;
@@ -452,6 +455,7 @@ blockquote {
 }
 .catagory > h2 {
     font-size: 24px;
+    color: #333333;
 }
 .catagory__list p{
     color: #929292;
@@ -469,6 +473,7 @@ blockquote {
 .tags h2 {
     font-size: 24px;
     margin-bottom: 25px;
+    color: #333333;
 }
 .tags__links {
     display: flex;
@@ -520,6 +525,7 @@ blockquote {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 35px;
+    color: #333333;
 }
 .widget__links-ul li {
     margin-bottom: 18px;
@@ -679,6 +685,7 @@ blockquote {
     .promo__text > h1 {
         font-size: 32px;
         margin: 20px 0;
+        color: #333333;
     }
     .main__inner {
         flex-direction: column;

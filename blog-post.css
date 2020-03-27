@@ -215,6 +215,7 @@ nav input:checked~label>span:nth-last-child(2) {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 27px;
+    color: #333333;
 }
 .left-side__info {
     display: flex;
@@ -308,11 +309,13 @@ nav input:checked~label>span:nth-last-child(2) {
 .recent-post {
     padding: 38px 27px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+    color: #333333;
 }
 .recent-post > h2 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 28px;
+    color: #333333;
 }
 .recent-post__item {
     margin-bottom: 29px;
@@ -345,6 +348,7 @@ nav input:checked~label>span:nth-last-child(2) {
 }
 .catagory > h2 {
     font-size: 24px;
+    color: #333333;
 }
 .catagory__list p{
     color: #929292;
@@ -362,6 +366,7 @@ nav input:checked~label>span:nth-last-child(2) {
 .tags h2 {
     font-size: 24px;
     margin-bottom: 25px;
+    color: #333333;
 }
 .tags__links {
     display: flex;
@@ -413,6 +418,7 @@ nav input:checked~label>span:nth-last-child(2) {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 35px;
+    color: #333333;
 }
 .widget__links-ul li {
     margin-bottom: 18px;
@@ -568,6 +574,7 @@ nav input:checked~label>span:nth-last-child(2) {
     }
     .recent-post__item-text h3 {
         margin: 0;
+        color: #333333;
     }
     .post__item-img {
         align-self: center;

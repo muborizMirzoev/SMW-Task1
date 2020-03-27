@@ -162,6 +162,7 @@ nav input:checked~label>span:nth-last-child(2) {
     padding-top: 55px;
     max-width: 451px;
     text-align: center;
+    color: #333333;
 
 }
 
@@ -260,6 +261,7 @@ nav input:checked~label>span:nth-last-child(2) {
     font-size: 18px;
     font-weight: bold;
     padding: 25px 0;
+    color: #333333;
 }
 
 .features__item p {
@@ -299,6 +301,7 @@ nav input:checked~label>span:nth-last-child(2) {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 33px;
+    color: #333333;
 }
 
 .about__text p {
@@ -391,6 +394,7 @@ nav input:checked~label>span:nth-last-child(2) {
 .pricing__plan>h2 {
     font-size: 32px;
     font-weight: bold;
+    color: #333333;
 }
 
 .pricing__plan>p {
@@ -443,6 +447,7 @@ nav input:checked~label>span:nth-last-child(2) {
     padding: 30px 0;
     border-bottom: 0.5px solid #929292;
     overflow: hidden;
+    color: #333333;
 }
 
 .pricing__card>.btn-color,
@@ -494,6 +499,7 @@ nav input:checked~label>span:nth-last-child(2) {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 45px;
+    color: #333333;
 }
 
 .testimonails__cards {
@@ -507,6 +513,7 @@ nav input:checked~label>span:nth-last-child(2) {
 .testimonails__cards>h4 {
     font-size: 18px;
     font-weight: bold;
+    color: #333333;
 }
 
 .testimonails__cards>h6 {
@@ -583,6 +590,7 @@ nav input:checked~label>span:nth-last-child(2) {
 }
 .news__title > h2 {
     font-size: 32px;
+    color: #333333;
 }
 .news__title > p {
     padding: 35px 0 45px 0;
@@ -669,6 +677,7 @@ nav input:checked~label>span:nth-last-child(2) {
     font-size: 32px;
     line-height: 36px;
     margin-bottom: 20px;
+    color: #333333;
 }
 .free-trial__text > p {
     color: #929292;
