@@ -545,6 +545,7 @@ blockquote {
     padding: 37px 15px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .footer__link {
     display: flex;
@@ -557,6 +558,13 @@ blockquote {
 }
 .footer__link a:hover {
     color: #0063dd; 
+}
+
+/* Back-to-top */
+.back-to-top {
+    background-color: #0063dd;
+    padding: 11px 13px;
+    border-radius: 2px;
 }
 
 
@@ -639,6 +647,12 @@ blockquote {
 
     .header__navigation label span {
         display: block;
+    }
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+    .back-to-top {
+        margin-top: 20px;
     }
 }
 
@@ -727,6 +741,9 @@ blockquote {
     .left-side__form input[type=text],
     .left-side__form input[type=email] {
         padding: 18px 25px;
+    }
+    .back-to-top {
+        margin-bottom: 20px;
     }
 }
 
