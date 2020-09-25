@@ -489,15 +489,17 @@ nav input:checked~label>span:nth-last-child(2) {
 .testimonails__inner {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
-
+.testimonails__img {
+    max-width: 40%;
+}
 .testimonails__img > img{
     max-width: 100%;
     height: auto;
 }
 .testimonails__text {
-    margin-left: 128px;
-    margin-right: 20px;
+    max-width: 40%;
 }
 .testimonails__text>h2 {
     font-size: 32px;
