@@ -173,6 +173,7 @@ nav input:checked~label>span:nth-last-child(2) {
     text-align: center;
     color: #929292;
     line-height: 26px;
+    font-size: 20px;
 }
 
 .btn {
