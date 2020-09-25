@@ -34,7 +34,7 @@ a {
 }
 
 .header {
-    background-image: url(./assets/image/header/header-bg.png);
+    background-image: url(./assets/image/header/header-bg1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,8 +53,8 @@ a {
     font-weight: bold;
     color: white;
     padding: 33px 25px;
-    border: 1px solid #0f7bff;
-    background-color: #0f7bff;
+    border: 1px solid #FB7268;
+    background-color: #FB7268;
     border-radius: 0 0 33px 33px;
 
 }
@@ -75,7 +75,7 @@ a {
     height: 6px;
     margin-bottom: 5px;
     position: relative;
-    background: #0f7bff;
+    background: #FB7268;
     border-radius: 3px;
 
     z-index: 1;
@@ -121,8 +121,8 @@ nav input:checked~label>span:nth-last-child(2) {
 }
 
 .header__navigation li>a:hover {
-    color: #0f7bff;
-    border-bottom: 1px solid #0f7bff;
+    color: #FB7268;
+    border-bottom: 1px solid #FB7268;
     padding-bottom: 10px;
 }
 
@@ -133,8 +133,8 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .header__btn {
 
-    border: 2px solid #0063dd !important;
-    background-color: #0063dd;
+    border: 2px solid #FB7268 !important;
+    background-color: #FB7268;
     padding: 16px 50px;
     margin-left: 52px;
     color: white;
@@ -143,7 +143,7 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .header__btn:hover {
     background-color: white;
-    color: #0063dd;
+    color: #FB7268;
 }
 
 
@@ -178,29 +178,29 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .btn {
     font-weight: bold;
-    border: 2px solid #0f7bff;
+    border: 2px solid #FB7268;
     padding: 15px 41px;
     border-radius: 45px;
 }
 
 .btn-color {
     color: white;
-    background-color: #0f7bff;
+    background-color: #FB7268;
     margin-right: 15px;
 }
 
 .btn-color:hover {
     background-color: #fff;
-    color: #0f7bff;
+    color: #FB7268;
 }
 
 .btn-border {
-    color: #0f7bff;
+    color: #FB7268;
     margin-left: 15px;
 }
 
 .btn-border:hover {
-    background-color: #0f7bff;
+    background-color: #FB7268;
     color: white;
 }
 
@@ -226,7 +226,7 @@ nav input:checked~label>span:nth-last-child(2) {
     transition: background-color .2s linear;
 }
 .scroll-down:hover {
-   background-color: #0f7bff; 
+   background-color: #FB7268; 
 }
 /* Features */
 .features {
@@ -317,7 +317,7 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .about__text a,
 .about__text i {
-    color: #0f7bff;
+    color: #FB7268;
     padding-bottom: 5px;
     font-weight: 700;
 }
@@ -328,7 +328,7 @@ nav input:checked~label>span:nth-last-child(2) {
 }
 
 .about__text a:hover {
-    border-bottom: 1px solid #0f7bff;
+    border-bottom: 1px solid #FB7268;
 }
 
 /* Works */
@@ -410,24 +410,24 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .pricing__plan-btn a {
     font-weight: bold;
-    border: 2px solid #0f7bff;
+    border: 2px solid #FB7268;
     padding: 14px 52px;
 }
 
 .pricing__plan-btn>a:nth-child(1) {
     color: white;
-    background-color: #0f7bff;
+    background-color: #FB7268;
     border-radius: 45px 0 0 45px;
 
 }
 
 .pricing__plan-btn>a:nth-child(1):hover {
-    color: #0f7bff;
+    color: #FB7268;
     background-color: white;
 }
 
 .pricing__plan-btn>a:nth-child(2) {
-    color: #0f7bff;
+    color: #FB7268;
     background-color: white;
     border-radius: 0 45px 45px 0;
     margin-left: -10px;
@@ -435,7 +435,7 @@ nav input:checked~label>span:nth-last-child(2) {
 
 .pricing__plan-btn>a:nth-child(2):hover {
     color: white;
-    background-color: #0f7bff;
+    background-color: #FB7268;
 }
 
 
@@ -471,7 +471,7 @@ nav input:checked~label>span:nth-last-child(2) {
     padding: 10px;
 }
 .pricing__service> .price {
-    color:#0f7bff;
+    color:#FB7268;
     font-size: 32px;
     line-height: 36px;
     font-weight: 600;
@@ -483,7 +483,7 @@ nav input:checked~label>span:nth-last-child(2) {
 
 /* Testimonails */
 .testimonails {
-    background-color: #f5fcfd;
+    background-color: #FFECEC;
 }
 
 .testimonails__inner {
@@ -554,11 +554,11 @@ nav input:checked~label>span:nth-last-child(2) {
 }
 
 .dot:hover {
-    background-color: #0f7bff;
+    background-color: #FB7268;
 }
 
 .active {
-    background-color: #0f7bff;
+    background-color: #FB7268;
     width: 30px;
 }
 
@@ -623,7 +623,7 @@ nav input:checked~label>span:nth-last-child(2) {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
-    color: #0f7bff;
+    color: #FB7268;
     padding: 44px 0 18px 0;
 }
 .news__blog1 > p {
@@ -633,7 +633,7 @@ nav input:checked~label>span:nth-last-child(2) {
 }
 .news__blog1 > a , .news__blog1 > i  {
     font-weight: 500;
-    color: #0f7bff;
+    color: #FB7268;
     margin-right: 8px;
 }
 
@@ -691,13 +691,13 @@ nav input:checked~label>span:nth-last-child(2) {
     margin-left: 80px;
     color: white;
     padding: 28px 66px;
-    border: 2px solid #0f7bff;
-    background-color: #0f7bff;
+    border: 2px solid #FB7268;
+    background-color: #FB7268;
     border-radius: 5px;
 }
 .free-trial__btn:hover {
     background-color: white;
-    color: #0f7bff;
+    color: #FB7268;
     
 }
 .free-trial__btn > a {
@@ -714,7 +714,7 @@ nav input:checked~label>span:nth-last-child(2) {
     line-height: 17px;
   }
 .footer {
-    background-color: #0f7bff;
+    background-color: #FB7268;
     border-top: 1px solid white;
     color: white;
     padding: 40px 20px;
@@ -722,7 +722,7 @@ nav input:checked~label>span:nth-last-child(2) {
 .widget {
     text-align: center;
     padding: 128px 20px;
-    background-color: #0f7bff;
+    background-color: #FB7268;
     color: white;
     width: 100%;
 }
@@ -743,7 +743,7 @@ nav input:checked~label>span:nth-last-child(2) {
     border: 2px solid white;
     padding: 10px 241px 10px 30px;
     border-radius: 50px 0 0 50px;
-    background-color: #0f7bff;
+    background-color: #FB7268;
 }
 .widget__form > a {
     margin-left: -5px;
@@ -751,7 +751,7 @@ nav input:checked~label>span:nth-last-child(2) {
     border-radius: 0 50px 50px 0;
     border: 2px solid white;
     background-color: white;
-    color: #0f7bff;
+    color: #FB7268;
     font-weight: bold;
 }
 
